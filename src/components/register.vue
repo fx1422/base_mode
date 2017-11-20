@@ -82,6 +82,7 @@
       left 0
       right 0
       top 0
+      max-width 640px
       .title {
         font-size 1rem
         text-align center
@@ -132,7 +133,7 @@
           color blue
         }
         .goRegister {
-          width 80vw
+          width 90%
           height 2rem
           margin auto
           border none
@@ -145,6 +146,9 @@
           background-color #900000
           color #c7c7c7
         }
+      }
+      .item:last-child{
+        border none
       }
     }
   }
